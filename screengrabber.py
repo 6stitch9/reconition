@@ -7,7 +7,7 @@ from vision import Vision
 
 wincap = WindowCapture('Minecraft 1.8.9')
 
-vision_table = Vision('group of horses1 needle.jpg')
+vision_table = Vision('crafting table.png')
 
 loop_time = time()
 while(True):
