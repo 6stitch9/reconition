@@ -1,0 +1,12 @@
+aight so im fucking stupid, this is error:
+
+Traceback (most recent call last):
+  File "A:\quiz\screengrabber.py", line 23, in <module>
+    points = vision_table.find(screenshot, 0.5, 'boxes')
+  File "A:\quiz\vision.py", line 26, in find
+    result = cv.matchTemplate(field_img, self.needle_img, self.method)
+cv2.error: OpenCV(4.5.5) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\templmatch.cpp:1164: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+
+
